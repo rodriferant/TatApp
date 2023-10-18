@@ -1,0 +1,81 @@
+/* Estilos para pantallas más grandes */
+.menu {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu a {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+/* Estilos para el menú desplegable en pantallas pequeñas */
+#navbar-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px auto;
+    transition: 0.4s;
+}
+
+@media (max-width: 550px) {
+    .menu {
+        display: none;
+    }
+
+    #navbar-toggle {
+        display: block;
+    }
+
+    #menu.show {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        text-align: center;
+    }
+
+    #menu.show li {
+        display: block;
+        margin: 0;
+    }
+}
