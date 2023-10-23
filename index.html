@@ -31,85 +31,240 @@
 
     <header class="header-container">
 
-        
-        <a href="#" class="iconoMenu"><img class="img-logo-header" src="img/loguitomenu.png" alt="loguito menu"></a>
+
+        <a href="#home" class="iconoMenu"><img class="img-logo-header" src="img/loguitomenu.png" alt="loguito menu"></a>
         <h1 class="titulo-header-mobile">TatApp</h1>
         <nav class="nav-container">
             <ul class="nav-container-ul">
-                <li> <a class="opcionMenu" href="#promos">Promos</a></li>
-                <li> <a class="opcionMenu" href="#">Menú</a></li>
-                <li> <a class="opcionMenu" href="#">Comentarios</a></li>
-                <li> <a class="opcionMenu" href="#">Nosotros</a></li>
-                <li> <a class="opcionMenu" href="#">Contacto</a></li>
+                <li> <a class="opcionMenu" href="#promos">Promociones</a></li>
+                <li> <a class="opcionMenu" href="#menu">Menú</a></li>
+                <li> <a class="opcionMenu" href="#footer">Contacto</a></li>
             </ul>
         </nav>
         <div class="navbar-toggle">
             <img class="iconomenudesplegable" src="img/iconoMenu2.png" alt="menu">
         </div>
     </header>
-    
+
     <main class="main-container">
-        
-        <section class="home-container">
-            <p class="nombre-empresa">
-                TATA'S FOOD
-            </p>
-            <p class="frase-home">AL ESTILO BOLIVIANO</p>
-            <div class="iconos-contenedor">
-                <div class="icono-descrip-home">
-                    <img class="icono-home" src="img/iconoCaritaFelizSinFondo.png" alt="iconoCaritaFeliz">
-                    <p class="logo-home">Delicioso</p>
-                </div>
-                <div class="icono-descrip-home">
-                    <img class="icono-home" src="img/iconoRapidoSinFondo.png" alt="iconoRapido">
-                    <p class="logo-home">Rapido</p>
-                </div>
-                <div class="icono-descrip-home">
-                    <img class="icono-home" src="img/iconoDineroSinFondo.png" alt="iconoDinero">
-                    <p class="logo-home">Accesible</p>
+
+        <section class="home-container" >
+            <div class="contenido-section" id="home">
+                <p class="nombre-empresa">
+                    TATA'S FOOD
+                </p>
+                <p class="frase-home">AL ESTILO BOLIVIANO</p>
+                <div class="iconos-contenedor">
+                    <div class="icono-descrip-home">
+                        <img class="icono-home" src="img/iconoCaritaFelizSinFondo.png" alt="iconoCaritaFeliz">
+                        <p class="logo-home">Delicioso</p>
+                    </div>
+                    <div class="icono-descrip-home">
+                        <img class="icono-home" src="img/iconoRapidoSinFondo.png" alt="iconoRapido">
+                        <p class="logo-home">Rapido</p>
+                    </div>
+                    <div class="icono-descrip-home">
+                        <img class="icono-home" src="img/iconoDineroSinFondo.png" alt="iconoDinero">
+                        <p class="logo-home">Accesible</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="promos-container" id="promos">
-            <h2 class="titulo-promo">Promociones</h2>
-
-            <div class="contenedor-principal-promos">
-
-                <div class="contenedor-promo">
-
-                    <div class="info-promo-container">
-                        <h3 class="nombre-promo">Hamburguesa con papas fritas</h3>
-                        <p class="descripcion-promo">Esta es una combinacion bastante atractiva y deliciosa para tu
-                            exigente
-                            paladar.</p>
-                        <p class="precio-promo">14 Bs.</p>
-                        <button class="boton-pedir-promo"><a class="letra-boton-pedir-promo" href="#promos">Pedir</a></button>
-                    </div>
-                    <img class="img-promo" src="img/imagenesProductos/HamburguesaYPapas.jpeg" alt="HamburguesaYPapas">
+        <section class="promos-container" >
+            <div class="contenido-section" id="promos">
+                <div class="titulopromo-container">
+    
+                    <h2 class="titulo-promo">Promociones</h2>
                 </div>
-
-
-                <div class="contenedor-promo">
-
-                    <div class="info-promo-container">
-
-                        <h3 class="nombre-promo">Papas fritas extra</h3>
-                        <p class="descripcion-promo">Arma tu hamburguesa con 1 porcion extra de papas fritas
-                            compartiendo
-                            nuestra pagina.</p>
-                        <p class="precio-promo">Gratis</p>
-                        <button class="boton-pedir-promo"><a class="letra-boton-pedir-promo" href="#promos">Pedir</a></button>
+    
+                <div class="contenedor-principal-promos">
+    
+                    <div class="contenedor-promo">
+                        <div class="card-promo">
+    
+                            <img class="img-promo" src="img/imagenesProductos/HamburguesaYPapas.jpeg"
+                                alt="HamburguesaYPapas">
+                            <div class="info-promo-container">
+                                <h3 class="nombre-promo">Hamburguesa con papas fritas</h3>
+                                <p class="descripcion-promo">Esta es una combinacion bastante atractiva y deliciosa para tu
+                                    exigente
+                                    paladar.</p>
+                                <p class="precio-promo">14 Bs.</p>
+                                <button class="boton-pedir-promo"><a class="letra-boton-pedir-promo"
+                                        href="#promos">Pedir</a></button>
+                            </div>
+                        </div>
                     </div>
-
-                    <img class="img-promo" src="img/imagenesProductos/Papas fritas.jfif" alt="HamburguesaYPapas">
+    
+    
+                    <div class="contenedor-promo">
+                        <div class="card-promo">
+                            <img class="img-promo" src="img/imagenesProductos/Papas fritas.jfif" alt="HamburguesaYPapas">
+                            <div class="info-promo-container">
+                                <h3 class="nombre-promo">Papas fritas extra</h3>
+                                <p class="descripcion-promo">Arma tu hamburguesa con 1 porcion extra de papas fritas
+                                    compartiendo
+                                    nuestra pagina.</p>
+                                <p class="precio-promo">Gratis</p>
+                                <button class="boton-pedir-promo"><a class="letra-boton-pedir-promo"
+                                        href="#promos">Pedir</a></button>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
             </div>
         </section>
-        <!--         
-            <section class="menu">
-        
-            </section>
-            <section class="comentarios">
+        <section class="menu-container" >
+            <div class="contenido-section-menu" id="menu">
+                <div class="container-titulo-menu">
+
+                    <h2 class="titulo-menu">Menú</h2>
+                </div>
+                <div class="contenedor-principal-productos-menu">
+                    <div class="card-produto-menu">
+                        <div class="contenido">
+                            <div class="vista-prod-frente">
+                                <div class="contenido-frente">
+                                    <img src="img/imagenesProductos/hambuguesabase.png" alt="hamburguesabase"
+                                        class="imgproductomenu">
+                                </div>
+                            </div>
+                            <div class="vista-prod-atras">
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+                                <div class="contenido-atras">
+                                    <h3 class="nombre-producto">
+                                        Hamburguesa base
+                                    </h3>
+                                    <p class="descripcion-producto">
+                                        Pan y deliciosa carne a la parrilla
+                                    </p>
+                                    <p class="precio-producto">
+                                        8.00 Bs.
+                                    </p>
+                                    <img src="img/imagenesProductos/carritoiconoSinFondo.png" alt="iconocompra"
+                                        class="icono-compra">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card-produto-menu">
+                        <div class="contenido">
+                            <div class="vista-prod-frente">
+                                <div class="contenido-frente">
+                                    <img src="img/imagenesProductos/papasfritasSinFondo.png" alt="papas"
+                                        class="imgproductomenu">
+                                </div>
+                            </div>
+                            <div class="vista-prod-atras">
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+                                <div class="contenido-atras">
+                                    <h3 class="nombre-producto">
+                                        Papas Fritas
+                                    </h3>
+                                    <p class="descripcion-producto">
+                                        Porcion de papas fritas
+                                    </p>
+                                    <p class="precio-producto">
+                                        4.00 Bs.
+                                    </p>
+                                    <img src="img/imagenesProductos/carritoiconoSinFondo.png" alt="iconocompra"
+                                        class="icono-compra">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="card-produto-menu">
+                        <div class="contenido">
+                            <div class="vista-prod-frente">
+                                <div class="contenido-frente">
+                                    <img src="img/imagenesProductos/quesoSinFondo.png" alt="queso"
+                                        class="imgproductomenu">
+                                </div>
+                            </div>
+                            <div class="vista-prod-atras">
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+                                <div class="contenido-atras">
+                                    <h3 class="nombre-producto">
+                                        Queso
+                                    </h3>
+                                    <p class="descripcion-producto">
+                                        Porcion de queso derretido
+                                    </p>
+                                    <p class="precio-producto">
+                                        2.00 Bs.
+                                    </p>
+                                    <img src="img/imagenesProductos/carritoiconoSinFondo.png" alt="iconocompra"
+                                        class="icono-compra">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="card-produto-menu">
+                        <div class="contenido">
+                            <div class="vista-prod-frente">
+                                <div class="contenido-frente">
+                                    <img src="img/imagenesProductos/tocinoSinFondo.png" alt="tocino"
+                                        class="imgproductomenu">
+                                </div>
+                            </div>
+                            <div class="vista-prod-atras">
+                                <div class="img">
+                                    <div class="circle">
+                                    </div>
+                                    <div class="circle" id="right">
+                                    </div>
+                                    <div class="circle" id="bottom">
+                                    </div>
+                                </div>
+                                <div class="contenido-atras">
+                                    <h3 class="nombre-producto">
+                                        Tocino
+                                    </h3>
+                                    <p class="descripcion-producto">
+                                        Porcion de tocino
+                                    </p>
+                                    <p class="precio-producto">
+                                        2.50 Bs.
+                                    </p>
+                                    <img src="img/imagenesProductos/carritoiconoSinFondo.png" alt="iconocompra"
+                                        class="icono-compra">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+        <!-- <section class="comentarios">
         
             </section>
             <section class="nosotros">
@@ -121,6 +276,49 @@
 
     </main>
 
+    <footer class="footer-container" id="footer">
+        <div class="contenido-footer">
+            <div class="nombre-redes">
+                <p class="nombreFooter">Tata's Food</p>
+                <div class="iconos-redes">
+                    <img class="iconored" src="img/iconoInsta.png" alt="insta" class="icono insta">
+                    <img class="iconored" src="img/iconoFace.png" alt="facebook" class="icono facebook">
+                    <img class="iconored" src="img/iconoWhatsSinFondo.png" alt="whatsapp" class="icono whatsapp">
+                    <img class="iconored" src="img/iconoTikTok.png" alt="tiktok" class="icono tiktok">
+                </div>
+            </div>
+            <div class="horarios">
+                <h3 class="horarioTitulo">
+                    Horarios
+                </h3>
+                <div class="dia-horario">
+                    <div class="dia">
+                        <p class="letra-foo">Lunes</p>
+                        <p class="letra-foo">Martes</p>
+                        <p class="letra-foo">Miercoles</p>
+                        <p class="letra-foo">Jueves</p>
+                        <p class="letra-foo">Viernes</p>
+                    </div>
+                    <div class="horario">
+                        <p class="letra-foo">9:00 - 21:00</p>
+                        <p class="letra-foo">9:00 - 21:00</p>
+                        <p class="letra-foo">9:00 - 21:00</p>
+                        <p class="letra-foo">9:00 - 21:00</p>
+                        <p class="letra-foo">9:00 - 21:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="direccion">
+                <h3 class="direccionTitulo">
+                    Direccion
+                </h3>
+                <div class="contfooImg">
+
+                    <img class="Imgdireccion" src="img/direccion.png" alt="direccion">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
